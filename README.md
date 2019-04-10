@@ -1,2 +1,2 @@
 # Migrate-User
-Copies a Windows profile from a remote computer to the local machine
+This script was written to ensure we were able to copy a users entire Windows profile from one machine to the next. This script already existed in our environment so I can't claim that I wrote it, however I can confidentally say I improved it. Initially, this script would copy everything under the "C:\Users\Username" path, including lots of "unncessary" files such as the Outlook .ost file, including temporary files.
